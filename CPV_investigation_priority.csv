@@ -1,0 +1,6 @@
+Parameter,Process_Role,Historical_Mean,Monitoring_Mean,Avg_Absolute_Z,Correlation_with_Dissolution,Investigation_Priority,Interpretation
+API PSD D90,Material Attribute,75.22,91.0,7.051429,-0.725,High,"Large material-attribute shift; evaluate API lot, PSD, milling, sampling, and related material changes."
+Compression Force,Process Parameter,10.82,12.93,6.163391,-0.991,High,Large process-parameter shift strongly associated with dissolution decline; review compression settings and press data.
+Tablet Hardness,Intermediate Response,7.13,8.62,6.713589,-0.985,Supporting Evidence,Intermediate response consistent with changing compression conditions.
+Disintegration,Intermediate Response,6.52,8.32,7.837698,-0.988,Supporting Evidence,Intermediate response associated with declining dissolution.
+Dissolution,CQA,94.06,85.5,7.062944,1.0,Outcome / CQA,Critical quality attribute showing sustained deterioration while remaining specification-compliant.

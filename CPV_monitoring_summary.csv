@@ -1,0 +1,7 @@
+Batch_ID,Dissolution_30min_pct,Spec_Status,Signal_Count,CPV_Status,Risk_Level
+B019,90,Pass,4,Pass - Process Signal,Red
+B020,88,Pass,4,Pass - Process Signal,Red
+B021,86,Pass,4,Pass - Process Signal,Red
+B022,84,Pass,4,Pass - Process Signal,Red
+B023,83,Pass,4,Pass - Process Signal,Red
+B024,82,Pass,4,Pass - Process Signal,Red
