@@ -1,0 +1,5 @@
+Scenario,N,True_boundary,Mean_estimated_boundary,Median_estimated_boundary,MAE_batches,Median_abs_error_batches,Exact_pct,Within_1_batch_pct,Within_2_batches_pct
+Abrupt +1 SD,20000,10.0,11.36925,10.0,2.90145,2.0,26.724999999999998,48.815,62.33
+Abrupt +2 SD,20000,10.0,10.14225,10.0,0.73725,0.0,61.86000000000001,83.85000000000001,91.625
+Abrupt +3 SD,20000,10.0,10.02515,10.0,0.20665,0.0,84.005,96.77,99.05000000000001
+Gradual drift to +3 SD,20000,,18.11065,18.0,,,,,

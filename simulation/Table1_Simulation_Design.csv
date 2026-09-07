@@ -1,0 +1,7 @@
+Scenario,Data-generating mechanism,Change timing,Primary purpose
+Stable,"IID N(0,1) throughout",No change,False-signal probability
+Abrupt +1 SD,Mean shifts from 0 to +1 SD after observation 10,Boundary 10/11,Small sustained shift
+Abrupt +2 SD,Mean shifts from 0 to +2 SD after observation 10,Boundary 10/11,Moderate sustained shift
+Abrupt +3 SD,Mean shifts from 0 to +3 SD after observation 10,Boundary 10/11,Large sustained shift
+Gradual drift to +3 SD,Linear mean drift from 0 to +3 SD over observations 11-30,No single true boundary,Trend sensitivity
+SD x2,SD doubles from 1 to 2 after observation 10; mean remains 0,Boundary 10/11,Variance instability
