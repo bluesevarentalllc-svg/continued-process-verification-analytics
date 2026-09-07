@@ -1,0 +1,31 @@
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Unit tests: PASSED
+
+Stable oracle false-alarm probabilities:
+     Method  Detection_probability_pct  Detection_CI_low_pct  Detection_CI_high_pct
+Rule 1 only                       7.85              7.485294               8.230895
+  Rules 1-3                      16.94             16.426501              17.466197
+  Rules 1-8                      30.90             30.263319              31.544017
+
+Abrupt +1 SD conditional detection:
+     Method  Prechange_false_signal_pct  Detection_probability_pct  Median_detection_delay
+Rule 1 only                       2.800                  37.042181                     8.0
+  Rules 1-3                       4.455                  75.508922                     8.0
+  Rules 1-8                       7.850                  93.830711                     6.0
+
+Phase I n=18 stable false-alarm probabilities:
+     Method  False_alarm_probability_pct
+Rule 1 only                       19.865
+  Rules 1-3                       30.905
+  Rules 1-8                       47.715
+
+Change-point localization:
+              Scenario     N  True_boundary  Mean_estimated_boundary  Median_estimated_boundary  MAE_batches  Median_abs_error_batches  Exact_pct  Within_1_batch_pct  Within_2_batches_pct
+          Abrupt +1 SD 20000           10.0                 11.36925                       10.0      2.90145                       2.0     26.725              48.815                62.330
+          Abrupt +2 SD 20000           10.0                 10.14225                       10.0      0.73725                       0.0     61.860              83.850                91.625
+          Abrupt +3 SD 20000           10.0                 10.02515                       10.0      0.20665                       0.0     84.005              96.770                99.050
+Gradual drift to +3 SD 20000            NaN                 18.11065                       18.0          NaN                       NaN        NaN                 NaN                   NaN
+
+ELAPSED 0:16.78
