@@ -1,6 +1,27 @@
 # Continued Process Verification Analytics
 
 Synthetic pharmaceutical manufacturing case study demonstrating how statistical process monitoring can identify process deterioration before specification failure.
+## DOI
+
+Zenodo archival release:
+
+10.5281/zenodo.22552505
+
+## V2.1 Statistical Validation Extension
+
+Version 2.1 adds Monte Carlo validation of the CPV monitoring framework, including:
+
+- stable-process false-signal assessment
+- abrupt 1-SD, 2-SD, and 3-SD mean shifts
+- gradual process drift
+- increased process variability
+- Phase-I baseline estimation sensitivity
+- heavy-tailed distribution stress testing
+- autocorrelation stress testing
+- monitoring-horizon sensitivity
+- change-point localization performance
+
+The original 24-batch synthetic OSD dataset remains an illustrative worked case. The simulation study provides the primary statistical validation of the monitoring framework.
 
 ## Project Objective
 
